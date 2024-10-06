@@ -1,0 +1,44 @@
+.seccion1 {
+    padding: 20px;
+    background-color: #f1f1f1; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 20px; /* Espacio exterior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  .seccion1 h1 {
+    color: #007bff; /* Color del encabezado */
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .ataques-list {
+    list-style-type: none; /* Quitar puntos de la lista */
+    padding: 0; /* Quitar padding */
+  }
+  
+  .ataques-list li {
+    background-color: #ffffff; /* Color de fondo para cada elemento de la lista */
+    border: 1px solid #007bff; /* Borde azul */
+    border-radius: 4px; /* Bordes redondeados */
+    margin: 10px 0; /* Espaciado vertical */
+    padding: 10px; /* Espaciado interno */
+    transition: background-color 0.3s; /* Transición suave */
+  }
+  
+  .ataques-list li:hover {
+    background-color: #007bff; /* Cambiar color de fondo al pasar el mouse */
+    color: white; /* Cambiar color del texto al pasar el mouse */
+  }
+  
+  .info {
+    display: block; /* Para que la información aparezca en una nueva línea */
+    margin-top: 5px; /* Espacio superior */
+    padding: 10px; /* Espacio interior */
+    background-color: #e7f3fe; /* Color de fondo suave */
+    border-left: 5px solid #2196F3; /* Borde lateral azul */
+    color: #333; /* Color de texto */
+    font-size: 0.9em; /* Tamaño de fuente */
+    border-radius: 4px; /* Bordes redondeados */
+  }
+  
+  
